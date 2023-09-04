@@ -1,0 +1,166 @@
+﻿<!--
+DESIGNER: (), (), Kuan Son Beh (100658082)
+EXERCISE: BIS403 Assignment 1 
+TASK: HTML Document for Home Pages
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Head-->
+<head>
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title> Dooonuts - Home </title>
+
+<!--Links-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<link rel="stylesheet" href="css/StyleSheet1.css" />
+
+</head>
+
+<!--Body-->
+
+<body>
+
+<!--Page Wrapper-->
+
+    <div id="page-wrapper" class="container-fluid w-100" style="padding: 0;">
+
+        <div class="col-12" style="padding: 0;">
+
+
+            <!--Page Header-->
+
+            <div id="header" class="container-fluid">
+
+                <div class="row">
+
+                    <img id="logo" src="img/Logo-Version 3.png" alt="Dooonuts">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!--Page navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse navbar-expand" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Signup.html">Sign up</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </nav>
+
+        <!--Content wrapper-->
+
+        <div class="container-fluid w-100" id="content">
+
+            <div class="row">
+
+                <div class="col-sm-1 col-xl-2"></div>
+
+                <div class="col-sm-10 col-xl-8" style="margin: 30px 0 30px 0;">
+
+
+
+                    <!-- Carousel -->
+
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="..." class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="..." class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="..." class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+
+                </div>
+
+                <div class="col-sm-1 col-xl-2"></div>
+
+            </div>
+
+        </div>
+
+        <!-- Menu Items(?)-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="image1.jpg" alt="Image 1">
+                </div>
+                <div class="col-md-4">
+                    <img src="image2.jpg" alt="Image 2">
+                </div>
+                <div class="col-md-4">
+                    <img src="image3.jpg" alt="Image 3">
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!--Footer-->
+
+        <div class="container-fluid" id="footer">
+
+            <span style="float: left;">&copy; 2023 All rights reserved, <b>Dooonuts</b></span>
+            <span style="float: right;">
+                <img src="img/facebook.png" style="height: 23px; width:23px;" alt="Facebook">
+                <img src="img/twitter.png" style="height: 23px; width:23px;" alt="Twitter">
+                <img src="img/instagram.png" style="height: 23px; width:23px;" alt="Instagram">
+            </span>
+
+        </div>
+
+    </div>
+
+    
+<!-- Bootstrap JS and jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+1mOgke5tu8e4p4qERnzsNojYIvXnEPf5n9Q/pbBwTEU21Zt" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
