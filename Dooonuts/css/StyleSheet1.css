@@ -3,13 +3,16 @@
     padding: 0;
     height: 100%;
     width: 100%;
-    background-image: url('/img/Donut-Wallpaper.jpg')
+    
 }
 
 
 #header {
     height: 250px;
-    background-color: #A3701A;
+    background-image: url('/img/Donut-Wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #logo {
