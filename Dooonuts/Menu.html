@@ -1,16 +1,203 @@
 ﻿<!--
-    DESIGNER: (), (), Kuan Son Beh (100658082)
-    EXERCISE: BIS403 Assignment 1
-    TASK: HTML Document for Home Pages
+DESIGNER: Claudinei Sousa(), Kuan Son Beh (100658082), Samuel ()
+EXERCISE: BIS403 Assignment 1
+TASK: HTML Document for Menu
 -->
 
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-</head>
-<body>
+<html lang="en">
 
+<!--Head-->
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Dooonuts - Home </title>
+
+    <!--Links-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/StyleSheet1.css" />
+
+</head>
+
+<!--Body-->
+
+<body>
+    
+    <!--Page Wrapper-->
+    
+    <div id="page-wrapper" class="container-fluid w-100" style="padding: 0;">
+
+        <div class="col-12" style="padding: 0;">
+
+
+            <!--Page Header-->
+
+            <div id="header" class="container-fluid">
+
+                <div class="row">
+
+                    <img id="logo" src="./img/logo-v02-transparent.png" alt="Dooonuts">
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!--Page navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse navbar-expand" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Signup.html">Sign up</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </nav>
+
+        <!--Menu Items-->
+        <div class="container">
+            <!--Row1-->
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card" id="card">
+                        <img class="card-img-top" src="./img/4pack.png" alt="4donuts_img">
+                        <div class="card-body">
+                            <h5 class="card-title">Combo For One $12</h5>
+                            <p class="card-text">4 donuts of any flavour</p>
+                            <a href="Signup.html" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm">
+                    <div class="card" id="card">
+                        <img class="card-img-top" src="./img/6Pack.png" alt="6donuts_img">
+                        <div class="card-body">
+                            <h5 class="card-title">Combo For Two $16</h5>
+                            <p class="card-text">6 donuts of any flavour</p>
+                            <a href="Signup.html" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm">
+                    <div class="card" id="card">
+                        <img class="card-img-top" src="./img/12Pack.png" alt="12donuts_img">
+                        <div class="card-body">
+                            <h5 class="card-title">Combo Family $32</h5>
+                            <p class="card-text">12 donuts of any flavour</p>
+                            <a href="Signup.html" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--Row 2-->
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card" id="card">
+                        <img class="card-img-top" src="./img/008-hotchocolate.jpg" alt="hotChocolate_img">
+                        <div class="card-body">
+                            <h5 class="card-title">Hot Chocolate</h5>
+                            <p class="card-text">Milky or Dark Dhocolate</p>
+                            <a href="Signup.html" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" id="card">
+                        <img class="card-img-top" src="./img/001-Coffee.jpg" alt="coffee_img">
+                        <div class="card-body">
+                            <h5 class="card-title">Coffee</h5>
+                            <p class="card-text">Australian Blend</p>
+                            <a href="Signup.html" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" id="card">
+                        <img class="card-img-top" src="./img/002-Latte.jpg" alt="latte_img">
+                        <div class="card-body">
+                            <h5 class="card-title">Latte</h5>
+                            <p class="card-text">With Any Milk</p>
+                            <a href="Signup.html" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Row 3-->
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card" id="card">
+                        <img class="card-img-top" src="./img/003-Mocha.jpg" alt="moccha_img">
+                        <div class="card-body">
+                            <h5 class="card-title">Moccha</h5>
+                            <p class="card-text">Hand Made ingredients</p>
+                            <a href="Signup.html" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" id="card">
+                        <img class="card-img-top" src="./img/009-Capuccino.jpg" alt="capuccino_img">
+                        <div class="card-body">
+                            <h5 class="card-title">Capuccino</h5>
+                            <p class="card-text">Australian Blend</p>
+                            <a href="Signup.html" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" id="card">
+                        <img class="card-img-top" src="./img/004-Macchiato.jpg" alt="macchiato_img">
+                        <div class="card-body">
+                            <h5 class="card-title">Macchiato</h5>
+                            <p class="card-text">Home Made Ingredients</p>
+                            <a href="Signup.html" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                        <!--Footer-->
+
+                        <div class="container-fluid" id="footer">
+
+                            <span style="float: left;">&copy; 2023 All rights reserved, <b>Dooonuts</b></span>
+                            <span style="float: right;">
+                                <img src="img/facebook.png" style="height: 23px; width:23px;" alt="Facebook">
+                                <img src="img/twitter-logo.png" style="height: 23px; width:23px;" alt="Twitter">
+                                <img src="img/insta-logo.png" style="height: 45px; width:60px;" alt="Instagram">
+                            </span>
+
+                        </div>
+    </div>
+    
+                <!-- Bootstrap JS and jQuery -->
+                
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+1mOgke5tu8e4p4qERnzsNojYIvXnEPf5n9Q/pbBwTEU21Zt" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
