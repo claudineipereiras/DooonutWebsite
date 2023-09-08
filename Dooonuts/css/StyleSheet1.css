@@ -3,27 +3,14 @@
     padding: 0;
     height: 100%;
     width: 100%;
-    
-}
-
-
-#header {
-    height: 250px;
-    background-image: url('/img/Donut-Wallpaper.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
 }
 
 #logo {
     width: 300px;
-    height: auto;
-    margin: 0 auto;
+    height: 300px;
+    margin: 0px auto;
 }
 
-#navbar {
-    background-color: #eae586 !important;
-}
 
 #card {
     width: 16rem;
@@ -31,3 +18,9 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
+#header {
+    background-color: blanchedalmond;
+ 
+}
+
